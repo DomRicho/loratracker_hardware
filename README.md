@@ -11,3 +11,4 @@ soldered to the CH1 input capture pin instead.
 ## Future Plans
 - Battery power
 - Solar Charging
+- RF Shielding
