@@ -1,4 +1,4 @@
-### LoRa Tracker HAT+
+# LoRa Tracker HAT+
 
 ## GNSS
 

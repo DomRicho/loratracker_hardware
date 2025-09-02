@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "5ab5d3de-1bbd-4e23-8b5c-7644647e884a")
 	(paper "A4")
+	(title_block
+		(title "LoRa Tracker HAT+ - GNSS Module")
+		(date "2025-07-05")
+		(rev "v1.0")
+		(company "Domonic Richardson")
+	)
 	(lib_symbols
 		(symbol "CONSMA020.062-G:CONSMA020.062-G"
 			(pin_numbers

@@ -5,9 +5,9 @@
 	(uuid "51073acf-2ecf-4a2e-adb3-f8c43b45512e")
 	(paper "A4")
 	(title_block
-		(title "LoRa Tracking HAT")
+		(title "LoRa Tracker HAT+ - uC and User Interface")
 		(date "2025-07-05")
-		(rev "v1")
+		(rev "v1.0")
 		(company "Domonic Richardson")
 	)
 	(lib_symbols
@@ -10458,7 +10458,7 @@
 			)
 		)
 		(instances
-			(project "anchor_node"
+			(project "loratracker_hat"
 				(path "/51073acf-2ecf-4a2e-adb3-f8c43b45512e"
 					(page "2")
 				)
@@ -10611,7 +10611,7 @@
 			)
 		)
 		(instances
-			(project "anchor_node"
+			(project "loratracker_hat"
 				(path "/51073acf-2ecf-4a2e-adb3-f8c43b45512e"
 					(page "3")
 				)
@@ -10694,7 +10694,7 @@
 			)
 		)
 		(instances
-			(project "anchor_node"
+			(project "loratracker_hat"
 				(path "/51073acf-2ecf-4a2e-adb3-f8c43b45512e"
 					(page "4")
 				)

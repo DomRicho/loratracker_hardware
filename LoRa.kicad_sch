@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "97c5f176-b956-480f-802a-bd6c667aea99")
 	(paper "A4")
+	(title_block
+		(title "LoRa Tracker HAT+ - LoRa Transceiver and Matching Network")
+		(date "2025-07-05")
+		(rev "v1.0")
+		(company "Domonic Richardson")
+	)
 	(lib_symbols
 		(symbol "CONSMA020.062-G:CONSMA020.062-G"
 			(pin_numbers
