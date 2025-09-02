@@ -1,0 +1,79 @@
+(footprint "RPi_mounting_holes"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f6813074-d986-49eb-8ac9-202ae4efcd4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RPi_mounting_holes"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1db54f4-dfee-4732-ae0b-9f162b00c32e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de7db633-04a6-4076-886a-ac2d886680d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d0f1e43-bcc6-4b79-a4cd-68ede29c4ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1eeeeb39-cfec-4deb-a7f1-b9cef76f112d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 90)
+		(size 2.75 2.75)
+		(drill 2.75)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1.625)
+		(clearance 1.925)
+		(uuid "4589c8d8-e6ce-4b29-b08a-6c4cbf1988f4")
+	)
+	(embedded_fonts no)
+)

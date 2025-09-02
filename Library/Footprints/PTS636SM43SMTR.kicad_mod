@@ -1,0 +1,114 @@
+(footprint "PTS636SM43SMTR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "07c5360e-9eab-482d-aaa2-84f69e2e8ab0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTS636SM43SMTR"
+		(at 0 -3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d10c2859-bc49-4702-bd9b-538cd7732fd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe5ec877-ebcd-4a57-add4-ef0c74452a6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed697fdb-1983-4dd1-865c-6007b2f783ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 1.25)
+		(end 3 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6495d17-37c2-420d-bafb-523057d3deee")
+	)
+	(fp_line
+		(start 0 -1.25)
+		(end -3 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4efddc7b-b54f-4934-994e-1c0d3fcfa33d")
+	)
+	(fp_line
+		(start 0 -1.25)
+		(end 3 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0e67baf-fb7f-443d-b5bf-73b1006ac4fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "61e2b2a5-f32b-45b4-8fd7-c257ca36218d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.1 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c62c8fc6-e832-4f7a-abec-6d9e52f1a272")
+	)
+	(pad "2" smd rect
+		(at 4.1 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9690dac8-4eea-4d55-84ca-476e77257d09")
+	)
+	(embedded_fonts no)
+)
